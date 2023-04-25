@@ -111,6 +111,24 @@
             });
         });
     </script>
+
+<script>
+    console.log("BEFORE!");
+  </script>
+  <!-- MARKER IO START -->
+  <script src="markerio_basic_config.js"></script>
+  <script>
+    window.markerConfig['customData'] = {
+        my_birthday: 1984,
+        cur_page: 'good place to login',
+    }
+  </script>
+  <script src="markerio.js"></script>
+  <!-- MARKER IO END -->
+  <script>
+    console.log("AFTER!");
+  </script>
+
 </body>
 
 
